@@ -1,0 +1,24 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../src/sass/main.scss",
+        "../src/sass/utils/_variables.scss",
+        "../src/sass/base/_common.scss",
+        "../src/sass/components/_container.scss",
+        "../src/sass/layout/_header.scss",
+        "../src/sass/layout/_navigation.scss",
+        "../src/sass/components/_logo.scss",
+        "../src/sass/components/_socials.scss",
+        "../src/sass/components/_button.scss",
+        "../src/sass/layout/_hero.scss",
+        "../src/sass/components/_tools.scss",
+        "../src/sass/components/_partners.scss",
+        "../src/sass/components/_newcomer-tools.scss",
+        "../src/sass/components/_comments.scss",
+        "../src/sass/components/_subscribition-form.scss",
+        "../src/sass/layout/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
