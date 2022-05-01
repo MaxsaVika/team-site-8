@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AgBAA,AAAA,QAAQ,AAAC,CAGL,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,MAAM,CAElB,QAAQ,CAAE,KAAK,CACf,GAAG,CAAE,CAAC,CACN,IAAI,CAAE,CAAC,CACP,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,gBAAgB,CAAE,eAAiB,CACnC,OAAO,CAAE,EAAE,CACX,UAAU,CAAE,OAAO,CACtB,AAKD,AAAA,MAAM,AAAC,CAGH,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,MAAM,CAIlB,KAAK,CAAE,IAAI,CACX,SAAS,CAAE,KAAK,CAGhB,QAAQ,CAAE,KAAK,CACf,GAAG,CAAE,GAAG,CACR,IAAI,CAAE,GAAG,CACT,SAAS,CAAE,qBAAqB,CAChC,OAAO,CAAE,EAAE,CAIX,UAAU,CAAE,CAAC,CAAC,GAAG,CAAC,IAAI,CAAE,MAAI,CAAC,eAAiB,CAC9C,UAAU,CAAE,MAAM,CAClB,OAAO,CAAE,IAAI,CACb,aAAa,CAAE,GAAG,CAClB,gBAAgB,CAAE,IAAI,CACtB,UAAU,CAAE,QAAQ,CACvB,AAKD,AAAA,MAAM,AAAA,OAAO,CACb,QAAQ,AAAA,OAAO,AAAC,CACZ,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,OAAO,CACtB,AAKD,AAAA,aAAa,AAAC,CACV,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,QAAQ,CAAE,QAAQ,CAClB,GAAG,CAAE,IAAI,CACT,KAAK,CAAE,IAAI,CACX,IAAI,CAAE,IAAI,CACV,MAAM,CAAE,OAAO,CAClB",
     "sources": [
         "../src/sass/main.scss",
         "../src/sass/utils/_variables.scss",
@@ -17,7 +17,8 @@
         "../src/sass/components/_newcomer-tools.scss",
         "../src/sass/components/_comments.scss",
         "../src/sass/components/_subscribition-form.scss",
-        "../src/sass/layout/_footer.scss"
+        "../src/sass/layout/_footer.scss",
+        "../src/sass/utils/_modal.scss"
     ],
     "names": [],
     "file": "main.min.css"
