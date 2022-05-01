@@ -1,0 +1,11 @@
+ul {
+    list-style: none;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+.navigation__item {
+    display: flex;
+    flex-direction: row;
+}
