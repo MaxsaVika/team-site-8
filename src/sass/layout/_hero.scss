@@ -1,12 +1,8 @@
-.hero {
-  background-color: #c4c4c4;
-}
-
 .hero__point {
   color: #ff6e30;
 }
 
-.h1 {
+.hero-name {
   margin-bottom: 30px;
 
   font-family: 'Poppins';
@@ -17,7 +13,7 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
-.p {
+.hero__subname {
   margin-bottom: 60px;
 
   font-family: 'Poppins';
@@ -26,4 +22,8 @@
   font-size: 18px;
   line-height: 1.67;
   color: rgba(255, 255, 255, 0.55);
+}
+
+.hero__search {
+  background-color: transparent;
 }
