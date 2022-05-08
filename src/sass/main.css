@@ -1,8 +1,38 @@
+@charset "UTF-8";
+ul {
+  list-style: none;
+}
 
-.title-tools {
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.navigation__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.h1 {
+  font-family: 'Poppins';
+  font-style: normal;
   font-weight: 500;
-  font-size: 48px;
-  line-height: 1.3;
+  font-size: 50px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.tools__title {
   font-weight: 500;
   font-size: 48px;
   line-height: 1.3;
@@ -10,7 +40,7 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
-.text-tools {
+.tools__text {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.67;
@@ -18,9 +48,167 @@
   color: rgba(255, 255, 255, 0.55);
 }
 
-.tools-link {
+.tools__subtitle {
   font-weight: 500;
   font-size: 24px;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.78);
 }
+
+.tools__name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #FFA537;
+}
+
+.tools__subtext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.tools__button-visit {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.tools__button-loadmore {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #FF6E30;
+}
+
+.partners__container {
+  padding: 55px 82px;
+  background-color: rgba(44, 53, 61, 0.2);
+  border-radius: 25px;
+}
+
+.partners__title {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.partners-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 107px;
+}
+
+.newcomer-tools__title {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.30;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.newcomer-tools__text {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.67;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.comments-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.5;
+  letter-spacing: 0.015em;
+  color: rgba(255, 253, 253, 0.78);
+}
+
+.section-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.3;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.footer-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.overlay {
+  /* Скрываем подложку  */
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 20;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+/* Стили для модальных окон */
+.modal {
+  /* Скрываем окна  */
+  opacity: 0;
+  visibility: hidden;
+  /*  Установаем ширину окна  */
+  width: 100%;
+  max-width: 500px;
+  /*  Центрируем и задаем z-index */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 30;
+  /* Должен быть выше чем у подложки*/
+  /*  Побочные стили   */
+  -webkit-box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 30px;
+  border-radius: 3px;
+  background-color: #fff;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+/* Стили для активных классов подложки и окна */
+.modal.active,
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Стили для кнопки закрытия */
+.modal__cross {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  fill: #444;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
