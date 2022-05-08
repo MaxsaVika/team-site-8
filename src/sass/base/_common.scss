@@ -1,8 +1,10 @@
-.list {
-  list-style: none;
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
-.link {
-  text-decoration: none;
+a {
+    text-decoration: none;
 }
 
 h1,
@@ -12,8 +14,12 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0;
-  margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    background-color: #1E252B;
 }
 
 ul,
@@ -21,10 +27,6 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  list-style: none;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
