@@ -4,9 +4,7 @@
   line-height: $ln;
 }
 .tools__section {
-  background-color: #1e252b;
   margin-bottom: 200px;
-  width: 1440px;
   padding-right: 108px;
   padding-left: 108px;
 }
@@ -55,14 +53,12 @@
     }
   }
 }
-.folder:hover,
-.folder:focus {
-  background-color: #283036;
+.folder-link:hover,
+.folder-link:focus {
   fill: rgba(255, 255, 255, 0.55);
 }
-.heart:hover,
-.folder:focus {
-  background-color: #283036;
+.like-link:hover,
+.like-link:focus {
   fill: #fd3b41;
 }
 .tools__title {
