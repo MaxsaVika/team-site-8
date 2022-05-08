@@ -1,6 +1,7 @@
 ul {
     list-style: none;
 }
+<<<<<<< Updated upstream
 .js-open-modal {
     display: none;
 }
@@ -12,18 +13,30 @@ ul {
 
     align-items: center;
     justify-content: space-between;
+=======
+.header {
+    padding-top: 26px;
+>>>>>>> Stashed changes
 
     background-color: #1E252B;
 }
 .navigation {
     display: flex;
+<<<<<<< Updated upstream
+=======
+    flex-direction: row;
+>>>>>>> Stashed changes
 
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+<<<<<<< Updated upstream
 
+=======
+    
+>>>>>>> Stashed changes
     color: rgba(255, 255, 255, 0.55);
 }
 
@@ -31,6 +44,7 @@ ul {
     display: flex;
     flex-direction: row;
 }
+<<<<<<< Updated upstream
 .header.logo {
     font-family: 'Poppins';
     font-style: normal;
@@ -40,3 +54,5 @@ ul {
     
     color: rgba(255, 255, 255, 0.9);
 }
+=======
+>>>>>>> Stashed changes
