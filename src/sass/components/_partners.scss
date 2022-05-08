@@ -1,12 +1,7 @@
-.partners {
-}
-
 .partners__container {
   padding: 55px 82px;
   background-color: rgba(44, 53, 61, 0.2);
   border-radius: 25px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .partners__title {
@@ -20,4 +15,8 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 107px;
+}
+
+.partners-list__icon {
+  fill: rgba(255, 255, 255, 0.2);
 }
