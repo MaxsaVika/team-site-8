@@ -1,9 +1,29 @@
+.hero {
+  background-color: #c4c4c4;
+}
+
+.hero__point {
+  color: #ff6e30;
+}
+
 .h1 {
+  margin-bottom: 30px;
+
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 50px;
   line-height: 140%;
-
   color: rgba(255, 255, 255, 0.9);
+}
+
+.p {
+  margin-bottom: 60px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  color: rgba(255, 255, 255, 0.55);
 }
