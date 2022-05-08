@@ -1,26 +1,38 @@
 <section class="hero">
-  <h1>
-    Awesome tools for <br> Designer & Developer<span class="hero__point">.</span>
-  </h1>
-  <p>
-    Antool is a web collection of information on paid or <br> Design and Development tools
-  </p>
-  <form action="">
-    <input type="text" />
-    <button type="button">Search</button>
-  </form>
-  <a href="#" class="js-open-modal" data-modal="3">Открыть окно 3</a>
-  <ul>
-    <li><a href="">Facebook</a></li>
-    <li><a href="">Instagram</a></li>
-    <li><a href="">Twiter</a></li>
-  </ul>
+  <div class="container">
+    <h1 class="hero__name">
+      Awesome tools for <br> Designer & Developer<span class="hero__point">.</span>
+    </h1>
+    <p class="hero__subname">
+      Antool is a web collection of information on paid or <br> Design and Development tools
+    </p>
+    <form action="">
+      <input type="text" class="hero__search" />
+      <svg class="hero__input-icon">
+        <use href="images/sprite.svg#">
+        </use>
+      </svg>
+      <button type="button">Search</button>
+    </form>
+    <a href="#" class="js-open-modal" data-modal="3">Открыть окно 3</a>
+    <ul>
+      <li class="hero__social-item">
+        <a href="https://www.facebook.com/">Facebook</a>
+      </li>
+      <li class="hero__social-item>
+        <a href=" https://www.instagram.com/">Instagram</a>
+      </li>
+      <li class="hero__social-item>
+        <a href=" https://twitter.com/">Twiter</a>
+      </li>
+    </ul>
+    <div class="modal" data-modal="3">
+      <!--   Svg иконка для закрытия окна 
+          <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+              d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+          </svg>
+          <p class="modal__title">Заголовок окна 3</p>
+  </div>
+  </div>
 </section>
-<div class="modal" data-modal="3">
-  <!--   Svg иконка для закрытия окна  -->
-  <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-    <path
-      d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
-  </svg>
-  <p class="modal__title">Заголовок окна 3</p>
-</div>
