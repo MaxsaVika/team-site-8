@@ -1,11 +1,42 @@
 ul {
     list-style: none;
 }
+.js-open-modal {
+    display: none;
+}
+.header {
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 108px;
+    padding-right: 108px;
+
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #1E252B;
+}
 .navigation {
+    display: flex;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.navigation__list {
     display: flex;
     flex-direction: row;
 }
-.navigation__item {
-    display: flex;
-    flex-direction: row;
+.header.logo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    
+    color: rgba(255, 255, 255, 0.9);
 }
